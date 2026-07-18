@@ -1,0 +1,38 @@
+{
+  "notice": "Every note and identifier in this fixture set is fictional and synthetic. Example domains, 555 numbers, invalid test identifiers, and invented offices are used intentionally.",
+  "suite": "Direct-identifier release review / synthetic public-service notes",
+  "cases": [
+    {
+      "id": "housing-intake",
+      "caseId": "CASE-2026-0417",
+      "title": "Housing support intake",
+      "program": "Temporary housing simulation",
+      "profile": "Dense direct-identifier note for first-pass privacy review.",
+      "text": "Case: CASE-2026-0417\nClient: Avery Example\nDOB: 04/17/1988\nAddress: 412 Example Avenue, Unit 7\nPhone: (555) 010-0148\nEmail: avery.example@example.test\n\nAvery Example requested temporary housing support after a fictional building closure. The client asked that follow-up occur by phone after 3:00 PM. No eligibility or safety decision has been made."
+    },
+    {
+      "id": "benefits-appeal",
+      "caseId": "APP-2026-1082",
+      "title": "Benefits appeal note",
+      "program": "Benefits review simulation",
+      "profile": "Contact details and an invalid government-ID fixture test selective review.",
+      "text": "Case: APP-2026-1082\nResident: Jordan Sample\nDate of birth: 11/08/1976\nGovernment ID: 000-12-3456\nResidence: 88 Sample Street\nEmail: jordan.sample@example.test\n\nJordan Sample submitted a fictional appeal concerning a document deadline. Staff recorded that the supporting form is incomplete and scheduled a non-production review."
+    },
+    {
+      "id": "youth-referral",
+      "caseId": "REF-2026-2204",
+      "title": "Youth service referral",
+      "program": "Family service simulation",
+      "profile": "Guardian and participant references demonstrate repeated-span handling.",
+      "text": "Case: REF-2026-2204\nClient: Riley Fiction\nGuardian: Morgan Placeholder\nPhone: 555-010-0199\nAddress: 25 Fictional Road\n\nRiley Fiction attended an intake with Morgan Placeholder. The synthetic note records a request for tutoring options and transportation information. Staff will not contact either person from this demonstration."
+    },
+    {
+      "id": "deidentified-control",
+      "caseId": "CONTROL-04",
+      "title": "De-identified control",
+      "program": "Quality-control simulation",
+      "profile": "A note with no configured direct identifiers tests the clear state.",
+      "text": "A participant requested general program hours and a list of required documents. Staff provided the standard public information sheet. No contact details, names, addresses, dates of birth, government identifiers, or case identifiers appear in this synthetic control note."
+    }
+  ]
+}

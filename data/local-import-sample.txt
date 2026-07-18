@@ -1,0 +1,6 @@
+Case: CASE-2026-9001
+Client: Taylor Example
+Email: taylor.example@example.test
+Phone: 555-010-0110
+
+Taylor Example requested a fictional program brochure. This local import fixture contains no real person or service record.

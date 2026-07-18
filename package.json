@@ -1,0 +1,11 @@
+{
+  "name": "civiccase-redact",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/redaction-engine.test.mjs",
+    "test:browser": "node tests/browser-smoke.mjs",
+    "serve": "node tools/static-server.mjs --port 4213"
+  }
+}
