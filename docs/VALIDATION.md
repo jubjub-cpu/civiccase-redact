@@ -2,7 +2,7 @@
 
 ## Automated checks
 
-Status: local release candidate passed on 2026-07-17.
+Status: local and deployed release checks passed on 2026-07-17.
 
 The validation suite covers:
 
@@ -29,6 +29,21 @@ humanGate=true, jsonExport=true, textExport=true, keyboard=true,
 desktopOverflow=false, mobileOverflow=false,
 consoleErrors=0, failedRequests=0
 ```
+
+Deployed result against `https://jubjub-cpu.github.io/civiccase-redact/`:
+
+```text
+CIVICCASE BROWSER TESTS PASSED
+target=deployed, fixtures=4, directIdentifierTypes=7,
+offsetSpans=true, repeatedNames=true, reversibleReview=true,
+policyControls=true, manualRedaction=true, localImport=true,
+protectedPreview=true, humanGate=true, jsonExport=true,
+textExport=true, keyboard=true, desktopOverflow=false,
+mobileOverflow=false, consoleErrors=0, failedRequests=0
+HTTP 200 /, /data/cases.json, and repository
+```
+
+The first deployed product tree was commit `3aa413e6a4590d49a10df41273ec4243fb86529c`.
 
 ## Release target
 
