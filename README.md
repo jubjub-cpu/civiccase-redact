@@ -6,7 +6,7 @@ CivicCase Redact is a local-first browser workspace for reviewing direct identif
 
 **Repository:** https://github.com/jubjub-cpu/civiccase-redact
 
-**Release:** https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.0
+**Release:** https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.1
 
 ![CivicCase Redact desktop workspace](docs/screenshots/civiccase-redact-desktop.png)
 

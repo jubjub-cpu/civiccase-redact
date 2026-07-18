@@ -1,5 +1,11 @@
 # Release Notes
 
+## v1.0.1 - Accessibility hardening
+
+- Increased contrast for secondary, action, confidence, and protected-output text.
+- Preserved reversible redaction, manual review, release gating, and browser workflow coverage.
+- Added automated axe-core verification to the release gate.
+
 ## v1.0.0 - Initial public release
 
 - Added four fictional synthetic case-note fixtures and a local import fixture.
