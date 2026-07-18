@@ -44,7 +44,7 @@ The dependency-free engine in [`assets/redaction-engine.mjs`](assets/redaction-e
 
 The confidence control is not a claim of statistical model calibration. It is an inspectable priority attached to deterministic rule evidence. Raising the threshold from 80% to 95% removes lower-confidence person and address suggestions; it does not prove that the remaining text is safe.
 
-This is AI-assisted product development, but the runtime does not call an AI model or identity service.
+The runtime uses inspectable deterministic patterns; it does not call a hosted AI model or identity service.
 
 ## Reversible human review
 
